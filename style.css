@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: blanchedalmond;
+}
+
+.hero h1 {
+  color: chocolate;
+  padding: 30px;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.form {
+  display: flex;
+
+  /* align-items: center; */
+  padding: 30px;
+  gap: 50px;
+}
+
+.form input {
+  font-size: 20px;
+
+  border: 2px solid chocolate;
+  border-radius: 12px;
+  padding: 6px;
+}
+
+.form button {
+  padding: 10px 25px;
+  font-size: 20px;
+  font-weight: 700;
+  color: chocolate;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
